@@ -1,0 +1,29 @@
+
+
+.app__findus-image img {
+    object-fit: cover;
+    width: 550px;
+    height: 600px;
+
+    margin: 2rem 2.5rem;
+}
+
+@media screen and (max-width: 1150px){
+    .app__findus {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width :650px){
+    .app__findus-image img {
+        width:400px;
+        height: 440px ;
+
+    }
+}
+
+
+
